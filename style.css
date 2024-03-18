@@ -1,0 +1,84 @@
+body {
+  font-family: Poppins;
+  font-weight: bold;
+
+  font-size: 14px;
+  color: hsl(30, 10%, 34%);
+  background-color: hsl(30, 54%, 90%);
+  margin: auto;
+  font-weight: 400;
+  width: 90%;
+  max-width: 700px;
+}
+
+.container {
+  border-radius: 2rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15rem;
+  max-width: 300px;
+}
+
+.btn {
+  border-radius: 5rem;
+  width: 250px;
+  height: 2rem;
+  max-width: 300px;
+  background-color: hsl(30, 10%, 34%);
+  color: white;
+  border: none;
+}
+
+.btn:hover {
+  background-color: hsl(30, 54%, 90%);
+  color: hsl(30, 10%, 34%);
+  font-weight: bolder;
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+h3 {
+  font-weight: bold;
+  align-items: center;
+  margin: 1rem;
+}
